@@ -21,15 +21,20 @@ This tool scans through PDF documents, locates sections containing abbreviations
 
 ## Installation
 
-1. Clone this repository or download the source code
-2. Navigate to the project directory and install dependencies:
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yudatadei/abbreviation-extractor.git
+cd abbreviation-extractor
+```
+
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Create a directory named `pdfs` in the project root to store your PDF files
-4. Place all PDF files you want to process in the `pdfs` directory
+3. The repository includes a `pdfs` folder with sample PDFs for testing. **Delete these files** and add your own PDF files that you want to process.
 
 ## Usage
 
@@ -88,8 +93,8 @@ const keepSeparate = false;
 You can modify these variables in the script to change the input directory and output file paths:
 
 ```typescript
-const inputDirectory = "./pdfs"; // Directory containing PDF files
-const outputFilePath = "./abbreviations.md"; // Output file path
+const inputDirectory = './pdfs'; // Directory containing PDF files
+const outputFilePath = './abbreviations.md'; // Output file path
 ```
 
 ## Limitations
