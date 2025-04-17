@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+# production
+dist
+# TypeScript
+*.tsbuildinfo
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# IDEs and editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Optional npm cache directory
+.npm
+# dotenv environment variables file
+.env
